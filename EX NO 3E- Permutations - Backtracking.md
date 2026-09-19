@@ -53,7 +53,7 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         String inputLine = scanner.nextLine().trim();
 
-        // ✅ Correct way to remove brackets
+       
         inputLine = inputLine.replaceAll("\\[|\\]", "");
         String[] parts = inputLine.split(",");
 
